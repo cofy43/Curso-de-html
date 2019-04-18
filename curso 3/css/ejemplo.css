@@ -1,0 +1,87 @@
+
+
+/*Cambio de color de hipervínculo 
+	después de visitarlo*/
+a:link {
+	color: #0837F7;
+}
+
+/*Cambio de color de hipervínculo 
+	antes de visitarlo*/
+a:visited {
+	color: #66F708;	
+}
+
+/*Cambio de color de hipervínculo 
+	al pulsarlo*/
+a:active {
+	color: #F7BD08;		
+}
+
+/*Ejemplo de alineación*/
+h1 {
+	text-align: center;
+}
+
+/*Cambio de color de texto a una
+	parte específica*/
+h2 {
+	color : #F7BD08;		
+}
+
+ul {
+	background-color: yellow;
+	list-style-type: square;
+}	
+
+li {
+	font-size: 70px;
+	font-family: Verdana;
+	color : blue;
+	text-shadow:  2px 2px #ff0000;
+}
+
+
+
+
+table {
+	width: 50%;
+	border : 4px solid #000;
+}
+
+th, td{
+	width: 25%;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	padding: 0.3em;
+	caption-side: bottom;
+}
+
+caption {
+	padding: 0.3em;
+	color: #fff;
+	background: #000;
+}
+
+th {
+	background: #eee;
+}
+
+#Canciones {
+	width: 50%;
+	border : 4px solid #C13804;	
+}
+
+#Titulo {
+	padding: 0.3em;
+	color: #fff;
+	background: #C13804;	
+}
+
+
+
+
+
+
